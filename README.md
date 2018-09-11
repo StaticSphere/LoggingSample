@@ -15,7 +15,7 @@ code editor, open a command shell to the directory where you cloned the reposito
 * dotnet restore
 * dotnet build
 * cd LoggingSample.Tests
-* dotnet test LoggingSample.csproj
+* dotnet test
 
 ## Demonstration
 
@@ -31,5 +31,3 @@ Use curl, PostMan, or even your web browser to make GET requests against the run
 global logging happen by making a GET request against **/api/values**.  To see an example of the global
 exception logging, make a GET request agasint **/api/error**.  Either way, you should see log messages being
 produced in the shell window that launched at the startup of the API project.
-
-To run unit tests, change 
